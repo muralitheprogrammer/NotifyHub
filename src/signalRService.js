@@ -5,7 +5,7 @@ const signalRService = {
 
   async startConnection() {
     this.connection = new HubConnectionBuilder()
-      .withUrl('https://localhost:7101/notifications')
+      .withUrl('https://35b4e4vg24nlplmvzxhzrj2hcu0rnufz.lambda-url.eu-north-1.on.aws/notifications')
       .withAutomaticReconnect()
       .build();
 
